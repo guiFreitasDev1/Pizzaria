@@ -2,8 +2,11 @@ import "./imagens.css"
 
 const Imagens = () => {
   return (
-    <div>
-        <img src="./pizza01.jpg" alt="Imagem pagina principal." />
+    <div className="imagem">
+       <div className="pedido">
+           <h1 >Começar o pedido <br /><a href="/">Entrega</a> ou <a href="/">Retirar</a></h1>
+       </div>
+
     </div>
   )
 }
